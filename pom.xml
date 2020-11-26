@@ -39,5 +39,12 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
+	<distributionManagement>
+    <repository>
+        <id>dev</id>
+        <name>Local repository</name>
+        <url>file://${user.home}/repository</url>
+    </repository>
+	</distributionManagement>
 </project>
